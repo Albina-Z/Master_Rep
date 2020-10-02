@@ -18,7 +18,7 @@ int main() {
     std::cout << "Also, I have " << Pets << " pets." << std::endl;
     char string1[]= "cat";
     char string2[]= "hamster";
-    char string3[]= "turtlr";
+    char string3[]= "turtle";
     std::cout << "It is a " << string1 << ", a " << string2 << " and a " << string3 <<"."<< std::endl;
     if((sum/9)>i)
         std::cout << sum/9 << " more than " << i <<"."<< std::endl;
@@ -29,7 +29,8 @@ int main() {
     int x=56;
     int y=78;
     float z;
-    z = double (fmod(double (y), double (x)));
+    z = fmod(y, x);
     std::cout << "I will graduate from university in 20" << z << "."<< std::endl;
+    std::cout << "The End." << std::endl;
     return 0;
 }
