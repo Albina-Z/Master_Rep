@@ -13,8 +13,12 @@ int main() {
         num+=2;
         i++;
     }
-    std::cout << "I have an " << num << "-years-old sister" << std::endl;
+    std::cout << "I have an " << num << "-years-old sister." << std::endl;
     int Pets=((sum/9) - 2);
-    std::cout << "Also, I have an " << Pets << " pets" << std::endl;
+    std::cout << "Also, I have an " << Pets << " pets." << std::endl;
+    char string1[]= "cat";
+    char string2[]= "hamster";
+    char string3[]= "turtlr";
+    std::cout << "It is a " << string1 << ", a " << string2 << " and a " << string3 <<"."<< std::endl;
     return 0;
 }
