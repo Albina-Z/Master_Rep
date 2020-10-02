@@ -20,5 +20,12 @@ int main() {
     char string2[]= "hamster";
     char string3[]= "turtlr";
     std::cout << "It is a " << string1 << ", a " << string2 << " and a " << string3 <<"."<< std::endl;
+    if((sum/9)>i)
+        std::cout << sum/9 << " more than " << i <<"."<< std::endl;
+    else
+    if((sum/9)>i)
+        std::cout << sum/9 << " less than" << i <<"."<< std::endl;
+    else std::cout << sum/9 << " = " << i <<"."<< std::endl;
+
     return 0;
 }
