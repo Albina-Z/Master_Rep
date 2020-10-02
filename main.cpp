@@ -14,5 +14,7 @@ int main() {
         i++;
     }
     std::cout << "I have an " << num << "-years-old sister" << std::endl;
+    int Pets=((sum/9) - 2);
+    std::cout << "Also, I have an " << Pets << " pets" << std::endl;
     return 0;
 }
