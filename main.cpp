@@ -15,7 +15,7 @@ int main() {
     }
     std::cout << "I have an " << num << "-years-old sister." << std::endl;
     int Pets=((sum/9) - 2);
-    std::cout << "Also, I have an " << Pets << " pets." << std::endl;
+    std::cout << "Also, I have " << Pets << " pets." << std::endl;
     char string1[]= "cat";
     char string2[]= "hamster";
     char string3[]= "turtlr";
@@ -26,6 +26,10 @@ int main() {
     if((sum/9)>i)
         std::cout << sum/9 << " less than" << i <<"."<< std::endl;
     else std::cout << sum/9 << " = " << i <<"."<< std::endl;
-
+    int x=56;
+    int y=78;
+    float z;
+    z = double (fmod(double (y), double (x)));
+    std::cout << "I will graduate from university in 20" << z << "."<< std::endl;
     return 0;
 }
